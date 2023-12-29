@@ -20,9 +20,9 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/add-new',
-      name: 'add-new',
-      component: () => import('../views/AboutView.vue')
+      path: '/config-service',
+      name: 'config-service',
+      component: () => import('../views/configuration/ServiceConfiguration.vue')
     },
     {
       path: '/categories',

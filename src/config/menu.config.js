@@ -41,13 +41,13 @@ export default [
   },
   {
     title: 'Configurations',
-    route: '/media',
+    route: '/config',
     active: false,
     icon: 'fa-solid fa-gear',
     children: [
       {
-        title: 'Library',
-        route: '/media-lib',
+        title: 'Service',
+        route: '/config-service',
         active: false,
         icon: 'fa-solid fa-photo-film',
         children: []

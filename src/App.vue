@@ -5,7 +5,7 @@
     <div class="flex flex-1 overflow-hidden">
       <main-sidebar />
 
-      <div class="flex flex-col w-full overflow-y-auto p-4">
+      <div class="flex flex-col w-full justify-between overflow-y-auto px-10 pt-4">
         <router-view class="" />
         <div class="opacity-25 pt-2 text-xs">
           <span class="float-end">2024©Datalake</span>

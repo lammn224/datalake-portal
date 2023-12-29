@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        --color-primary: 31 41 55;
+        --color-primary-hover: 55 65 81;
+        --color-secondary: 111 114 185;
+        --color-active: 61 137 115;
+        --color-inactive: 184 0 0;
+        --color-pending: 10 10 10;
+    }
+}
